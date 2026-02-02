@@ -1,5 +1,5 @@
 package main
 
 func main() {
-	math()
+	calculate("12.2", "14.3")
 }
