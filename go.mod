@@ -1,4 +1,4 @@
-module example/hello
+module gotrainning
 
 go 1.25.6
 

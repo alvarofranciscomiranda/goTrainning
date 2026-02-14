@@ -1,8 +1,8 @@
-package main
+package collections
 
 import "fmt"
 
-func arrayFunc() {
+func ArrayFunc() {
 	var colors [3]string
 	colors[0] = "red"
 	colors[1] = "green"

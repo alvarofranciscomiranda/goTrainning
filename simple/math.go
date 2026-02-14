@@ -1,11 +1,11 @@
-package main
+package simple
 
 import (
 	"fmt"
 	"math"
 )
 
-func mathFunction() {
+func MathFunc() {
 	i1, i2, i3 := 12, 45, 68
 	intSum := i1 + i2 + i3
 	fmt.Println("Integer sum: ", intSum)

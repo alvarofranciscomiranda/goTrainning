@@ -1,8 +1,8 @@
-package main
+package collections
 
 import "fmt"
 
-func pointerFunc() {
+func PointerFunc() {
 	anInt := 42
 	var p *int = &anInt
 

@@ -1,11 +1,11 @@
-package main
+package collections
 
 import (
 	"fmt"
 	"sort"
 )
 
-func mapsGo() {
+func MapsFunc() {
 	states := make(map[string]string)
 	states["WA"] = "Washington"
 	states["OR"] = "Oregon"

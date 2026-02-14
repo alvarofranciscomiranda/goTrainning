@@ -1,4 +1,4 @@
-package main
+package simple
 
 import (
 	"fmt"
@@ -6,11 +6,9 @@ import (
 	"strings"
 )
 
-//Uncomment this import section to use required Go packages
-
-// calculate() returns the the result of adding 2 numbers
+// CalculateFunc() returns the the result of adding 2 numbers
 // after parsing them from strings
-func calculate(value1 string, value2 string) float64 {
+func CalculateFunc(value1 string, value2 string) float64 {
 
 	f1, err := strconv.ParseFloat(strings.TrimSpace(value1), 64)
 	if err != nil {
