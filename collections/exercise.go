@@ -1,5 +1,9 @@
 package collections
 
+import (
+	"fmt"
+)
+
 // slicesToObjects() returns a slice of Color objects
 func SlicesToObjects(colorNames []string, hexValues []int) []Color {
 	colors := make([]Color, 0, len(colorNames))
@@ -14,9 +18,9 @@ type Color struct {
 	Hex  int
 }
 
-/*
+func Exercise() {
 	colorNames := []string{"Red", "Green", "Blue"}
 	hexValues := []int{0xFF0000, 0x00FF00, 0x0000FF}
-	colors := collections.SlicesToObjects(colorNames, hexValues)
+	colors := SlicesToObjects(colorNames, hexValues)
 	fmt.Println(colors)
-*/
+}
