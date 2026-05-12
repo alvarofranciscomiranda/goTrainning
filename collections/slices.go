@@ -5,7 +5,7 @@ import (
 	"sort"
 )
 
-func slicesFunc() {
+func SlicesFunc() {
 	// var colorsSlice = []string{"red", "green", "Blue"}
 
 	var colors = make([]string, 0, 3)
