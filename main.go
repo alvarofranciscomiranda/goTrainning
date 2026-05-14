@@ -1,7 +1,7 @@
 package main
 
-import "gotrainning/flow"
+import "gotrainning/files"
 
 func main() {
-	flow.ExerciseFunc()
+	files.JsonFunc()
 }
